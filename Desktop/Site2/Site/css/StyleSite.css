@@ -319,3 +319,33 @@ font-size: large;
 
   }
   
+
+ 
+@media screen and (max-width: 600px) {
+  .steps {
+    flex-direction: column;
+  }
+
+  .step {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .step img {
+    width: 100%;
+    height: auto;
+  }
+
+  .step h3 {
+    font-size: 24px;
+  }
+
+  .step p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #main-image {
+    height: 300px;
+  }
+}
